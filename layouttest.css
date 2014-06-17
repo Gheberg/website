@@ -1,0 +1,40 @@
+.tail-top{ background-color: black}
+.tail-bottom{background:url(images/bot.gif) repeat-x  bottom }
+
+.col1, .col2, .col-1, .col-2, .col-3, .col-4{ float:left}
+/*======= width =======*/
+.main{margin:0 auto; text-align:left; width:909px; }
+
+/*======= header =======*/
+#header {height:401px;}
+
+/*======= index.html =======*/
+#page1 #content .col1{ width:182px}
+#page1 #content .col2{ width:181px}
+#page1 #content .col-1{ width:237px; margin-right:63px}
+#page1 #content .col-2{ width:225px; margin-right:76px}
+#page1 #content .col-3{ width:254px}
+/*======= index-1.html =======*/
+#page2 #content .col-1{ width:237px; margin-right:63px}
+#page2 #content .col-2{ width:225px; margin-right:76px}
+#page2 #content .col-3{ width:254px}
+/*======= index-2.html =======*/
+#page3 #content .col-1{ width:237px; margin-right:63px}
+#page3 #content .col-2{ width:230px; margin-right:71px}
+#page3 #content .col-3{ width:254px}
+/*======= index-3.html =======*/
+#page4 #content .col-1{ width:237px; margin-right:63px}
+#page4 #content .col-2{ width:230px; margin-right:71px}
+#page4 #content .col-3{ width:254px}
+/*======= index-4.html =======*/
+#page5 #content .col-1{ width:525px; margin-right:77px}
+#page5 #content .col-2{ width:252px}
+#page5 #content .col-3{ width:237px; margin-right:50px}
+#page5 #content .col-4{ width:237px}
+/*======= index-5.html =======*/
+#page6 #content .col-1{ width:237px; margin-right:63px}
+#page6 #content .col-2{ width:230px; margin-right:71px}
+#page6 #content .col-3{ width:254px}
+
+/*======= footer =======*/
+#footer { height:52px; }

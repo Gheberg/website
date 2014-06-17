@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GHeberg.eu</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/carrousel.js"></script> 
+</head>
+<body>
+
+<div id="header">
+	<div id="logo"><a href="" title="" target="_parent"></a></div>
+<form method="post" action="login.php">
+    <div id="connexion">
+    <table width="230" border="0" align="center">
+      <tr>
+        <td>Nom d'utilisateur :<br /><input type="text" name="textfield" class="input" /></td>
+        <td rowspan="2"><input type="submit" name="button" class="valider" value=" " /><br /><br /><a href="oubli.php">Mdp Oublié ?</a></td>
+      </tr>
+      <tr>
+        <td>Mots de passe :<br />
+          <input type="password" name="textfield2" class="input" /></td></form>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div id="navbar">	
+	<ul id="menu" >
+    	<li><a href="index.html" title="" target="_parent" class="m_accueil">Accueil</a></li>
+        <li></li>
+        <li><a href="inscription.html" title="inscription" target="_parent" class="m_hebergement">Inscription</a></li>
+        <li><a href="https://www.gratuit-domaine.eu" title="Gratuit-Domaine" target="_blank" class="m_nomdedomaine">Nom de domaine</a></li>
+        <li><a href="dedie.html" title="Serveur dédié" target="_parent" class="m_serveurdedie">Serveur dédié</a></li>
+        <li><a href="vps.html" title="sauvegarde" target="_parent" class="m_ecommerce">VPS</a></li>
+        <li><a href="faq.html" title="faq" target="_parent" class="m_faq">F.A.Q</a></li>
+        <li><a href="contact.php" title="contact" target="_parent" class="m_contact">Contact</a></li>
+	</ul>     
+</div>
+
+<div id="conteneur">
+ <div id="carrousel"> 
+ 
+	<div id="slide1" class="slide"> 
+	    <div class="visu"> <img src="images/slide/slide1.png"/> </div>
+	</div> 
+    
+    <div id="slide2" class="slide"> 
+	    <div class="visu"> <img src="images/slide/slide2.png"/> </div>
+	</div> 
+    
+ </div>
+</div>
+
+<div id="corpshaut"></div>
+
+<div id="bloc">
+  <div id="corps">
+<h2>Sauvegarde</h2>
+
+Dans le cadre de votre hébergement web, nous vous proposons une sauvegarde journalière de votre site, bases de données, etc.<br>
+Fini les problèmes de serveurs, disque dur! En cas de soucis, il suffit de télécharger la sauvegarde de votre site la plus récente, et le tour est joué.<br><br>
+Le service est facturé <b>1.5€ / mois soit 1 code allopass / mois.</b> L'installation est automatique et gratuite.<br><br>
+<u>Comment souscrire?</u><br><br>
+Rendez-vous sur la plateforme membre, onglet Sauvegarde.
+<center><img src="images/sauvegarde.png"></center>    </div>
+</div>
+
+
+<div id="footer">
+<p>© 2010 <a href="index.html">GHeberg.eu</a><br/>
+  Partenaires : <a href="https://www.gratuit-domaine.eu" target="_blank">Gratuit-Domaine.eu</a> </p>
+  
+  <a href="http://www.creativegfx.fr" title="CreativeGFX" target="_blank" class="creativegfx"></a>
+
+</div>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.gheberg.eu/piwik/" : "http://www.gheberg.eu/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://www.gheberg.eu/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</body>
+</html>

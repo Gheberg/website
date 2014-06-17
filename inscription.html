@@ -1,0 +1,116 @@
+<?php
+$p = $_GET['p'];
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GHeberg.eu</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/carrousel.js"></script> 
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'fr'}
+</script>
+</head>
+<body>
+
+<div id="header">
+	<div id="logo"><a href="" title="" target="_parent"></a></div>
+<form method="post" action="login.php">
+    <div id="connexion">
+    <table width="230" border="0" align="center">
+      <tr>
+        <td>Nom d'utilisateur :<br /><input type="text" name="textfield" class="input" /></td>
+        <td rowspan="2"><input type="submit" name="button" class="valider" value=" " /><br /><br /><a href="oubli.php">Mdp Oublié ?</a></td>
+      </tr>
+      <tr>
+        <td>Mots de passe :<br />
+          <input type="password" name="textfield2" class="input" /></td></form>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div id="navbar">	
+	<ul id="menu" >
+    	<li><a href="index.html" title="" target="_parent" class="m_accueil">Accueil</a></li>
+        <li></li>
+        <li><a href="inscription.html" title="inscription" target="_parent" class="m_hebergement">Inscription</a></li>
+        <li><a href="https://www.gratuit-domaine.eu" title="Gratuit-Domaine" target="_blank" class="m_nomdedomaine">Nom de domaine</a></li>
+        <li><a href="dedie.html" title="Serveur dédié" target="_parent" class="m_serveurdedie">Serveur CSS</a></li>
+        <li><a href="vps.html" title="sauvegarde" target="_parent" class="m_ecommerce">VPS</a></li>
+        <li><a href="faq.html" title="faq" target="_parent" class="m_faq">F.A.Q</a></li>
+        <li><a href="contact.php" title="contact" target="_parent" class="m_contact">Contact</a></li>
+	</ul>     
+</div>
+
+<div id="conteneur">
+ <div id="carrousel"> 
+ 
+	<div id="slide1" class="slide"> 
+	    <div class="visu"> <img src="images/slide/slide1.png"/> </div>
+	</div> 
+    
+    <div id="slide2" class="slide"> 
+	    <div class="visu"> <img src="images/slide/slide2.png"/> </div>
+	</div> 
+    
+ </div>
+</div>
+
+<div id="corpshaut"></div>
+
+<div id="bloc">
+  <div id="corps">
+    <h2>Commande / Inscription</h2>
+Voici un récapitulatif de toutes nos offres et tarifs afin de faciliter votre inscription.<br><br>
+<ul class="list"> 
+                                                    	<li class="bull-2"><A href="h1.html">En savoir plus</a><span>h1 : hébergement 2go <b>gratuit</b></span></li> 
+														<li class="bull-2"><A href="h2.html">En savoir plus</a><span>h2 : hébergement 20go <b>1.5€ / mois</b></span></li> 
+														<li class="bull-2"><A href="h3.html">En savoir plus</a><span>h3 : hébergement 100go <b>3€ / mois</b></span></li>
+
+</ul> 
+<br><br>
+<ul class="list"> 
+                                                    	<li class="bull-2"><A href="command0.php?p=vps1">Commander</a><span>vps1 : serveur virtuel 256mo de ram <b>4.5€ / mois</b></span></li> 
+														<li class="bull-2"><A href="command0.php?p=vps2">Commander</a><span>vps2 : serveur virtuel 512mo de ram <b>5.5€ / mois</b></li> 
+														<li class="bull-2"><A href="command0.php?p=vps3">Commander</a><span>vps3 : serveur virtuel 1024mo de ram <b>12€ / mois</b></span></li>
+                                                    	<li class="bull-2"><A href="command0.php?p=vps4">Commander</a><span>vps4 : serveur virtuel 1536mo de ram <b>16.5€ / mois</b></span></li> 
+														<li class="bull-2"><A href="command0.php?p=vps5">Commander</a><span>vps5 : serveur virtuel 2048mo de ram <b>20€ / mois</b></li> 
+														<li class="bull-2"><A href="command0.php?p=vps6">Commander</a><span>vps6 : serveur virtuel 3072mo de ram <b>30€ / mois</b></span></li>
+</ul> 
+<br><br>
+<ul class="list"> 
+                                                    	<li class="bull-2"><A href="command0.php?p=css1">Commander</a><span>css1 : serveur jeu 20 SLOTS <b>4.5€ / mois</b></span></li> 
+														<li class="bull-2"><A href="command0.php?p=css2">Commander</a><span>css2 : serveur jeu 40 SLOTS <b>5.5€ / mois</b></li> 
+														<li class="bull-2"><A href="command0.php?p=css3">Commander</a><span>css3 : serveur jeu 10 SLOTS <b>3.5€ / mois</b></li> 
+</ul> 
+
+<br><br><center>
+<a href="https://www.gratuit-domaine.eu" target="_blank"><img src="images/domaine.png"></a></center>
+    </div>
+</div>
+
+
+<div id="footer">
+<p>© 2010 <a href="index.html">GHeberg.eu</a><br/>
+  Partenaires : <a href="https://www.gratuit-domaine.eu" target="_blank">Gratuit-Domaine.eu</a> </p>
+  
+  <a href="http://www.creativegfx.fr" title="CreativeGFX" target="_blank" class="creativegfx"></a>
+
+</div>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.gheberg.eu/piwik/" : "http://www.gheberg.eu/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://www.gheberg.eu/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</body>
+</html>

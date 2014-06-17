@@ -1,0 +1,4 @@
+AuthName "Acces Restreint"
+AuthType Basic
+AuthUserFile /var/www/vhosts/gratuit-domaine.eu/httpdocs/admin2/.htpasswd
+require valid-user
